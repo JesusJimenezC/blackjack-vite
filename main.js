@@ -57,7 +57,7 @@ const computerTurn = (minimumPoints) => {
     pointsHTML[1].innerText = computerPoints;
 
     const cardImg = document.createElement('img');
-    cardImg.src = `./public/cards/${card}.png`;
+    cardImg.src = `/cards/${card}.png`;
     cardImg.classList.add('card');
     computerCardsDiv.append(cardImg);
 
@@ -86,7 +86,7 @@ btnRequest.addEventListener('click', () => {
   pointsHTML[0].innerText = playerPoints;
 
   const cardImg = document.createElement('img');
-  cardImg.src = `./public/cards/${card}.png`;
+  cardImg.src = `/cards/${card}.png`;
   cardImg.classList.add('card');
   playerCardsDiv.append(cardImg);
 

@@ -22,4 +22,6 @@ html, body {
 
 #computer-cards, #player-cards {
   height: 240px;
+  display: flex;
+  flex-direction: row;
 }
