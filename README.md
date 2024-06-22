@@ -60,11 +60,12 @@ This project is a basic implementation of the Blackjack game to help you practic
 
 1. **Draw a card:**
     - Click the "Draw Card" button to draw a card and add its value to your score.
-  
-DEMO: https://bljack.vercel.app/
 
 2. **Stop drawing cards:**
     - Click the "Stop" button to stop drawing cards and let the computer take its turn.
 
 3. **Start a new game:**
     - Click the "New Game" button to reset the game and start over.
+  
+
+DEMO: https://bljack.vercel.app/
